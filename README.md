@@ -9,7 +9,7 @@ Download version 7 (or newer) from https://www.imagemagick.org/. It has been tes
 
 ### How it works
 
-See example screenshots here: <https://github.com/arberg/DragonManiaLegendsImageAnalyzer/blob/master/newToSort/new/example/Screenshot_20170212-110139.png>. For each card it extracts the top right element and compares it to a image-on-disk copy of the element. The image-on-disk are named by their content, so icons\1_fire.png is a fire element. The file which is the closest match is the element type the script detects. If the distance between the icons-files and the extracted image is to large (if the images differ too much), it is marked as unmatched (see imageSearch.sh: MAX_DISTANCE_IMAGES=1000).
+See example screenshots here: [newToSort/new/example/Screenshot_20170212-110139.png](https://github.com/arberg/DragonManiaLegendsImageAnalyzer/blob/master/newToSort/new/example/Screenshot_20170212-110139.png). For each card it extracts the top right element and compares it to a image-on-disk copy of the element. The image-on-disk are named by their content, so icons\1_fire.png is a fire element. The file which is the closest match is the element type the script detects. If the distance between the icons-files and the extracted image is to large (if the images differ too much), it is marked as unmatched (see imageSearch.sh: MAX_DISTANCE_IMAGES=1000).
 
 If something changes, it may be necessary to extract new icon-images. This can be done using `imageSearch.sh extract`.
 
@@ -26,7 +26,7 @@ The bash scripts assume the images have size 2560x1440. If different sizes are u
 
 Move all screenshots to folder newToSort\new. To separate chestproofs from screneshots of elements run:
 
-In: `newToSort`
+In: `/newToSort/`
 ```
 doSort.sh
 ```
@@ -36,7 +36,7 @@ Rename and postfix ' - Chestproof' in TotalCommander with '[N1-26] - Chestproof[
 
 Manuel task: Add data of Rare to excel (skip entering specials, they don't really matter)
 
-In: `newToSort`
+In: `/newToSort/`
 ```
 cd todo
 . rename.sh
