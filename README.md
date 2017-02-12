@@ -45,17 +45,10 @@ cd ../..
 . doMatchNew.sh
 ```
 Manuelly (if you so desire) Possibly verify matches by checking images - though I have never seen a mismatch
-
-In: `/`
-```
-rsync --remove-source-files -av matches/ matchesAll
-./doCountAll.sh
-```
-
-Below will delete files in new_noChestproofs (even if we rerun some images, it will not skew counting, because the files placed in match has unique names based on source file and index).
+Below will delete files in new_noChestproofs (even if we rerun some images, it will not skew counting, because the files placed in match has unique names based on source file and index). It will also move all new matches to matchesAll and do a recount.
 
 In: `/`
 ```
 . moveTodoToDone.sh
-rm -f newToMatch_noChestproofs/*.png
+./doCountAll.sh
 ```
