@@ -1,5 +1,5 @@
 # DragonManiaLegendsImageAnalyzer
-Bash scripts for analysing images from Dragon Mania Legends of for collection statistics about enchanment elements
+Bash scripts for analysing images from Dragon Mania Legends of for collection statistics about enchantment elements. It analyses screenshots of enchantment reward chests, and collects data about how many of each element type was seen (fire, wind, earth etc). It does not collect information about the quality of the elements (fair, good, extraordinary, etc). In the spreadsheet data has been manually collected for rare and special chests.
 
 It is implemented with bash scripts and uses to do the image work. The bash-scripts have been used on cygwin, but should work on unix bash.
 
