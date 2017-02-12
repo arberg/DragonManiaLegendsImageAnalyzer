@@ -11,7 +11,7 @@ Download version 7 (or newer) from https://www.imagemagick.org/. It has been tes
 
 See example screenshots here: [newToSort/new/example/Screenshot_20170212-110139.png](https://github.com/arberg/DragonManiaLegendsImageAnalyzer/blob/master/newToSort/new/example/Screenshot_20170212-110139.png). For each card it extracts the top right element and compares it to a image-on-disk copy of the element. The image-on-disk are named by their content, so icons\1_fire.png is a fire element. The file which is the closest match is the element type the script detects. If the distance between the icons-files and the extracted image is to large (if the images differ too much), it is marked as unmatched (see imageSearch.sh: MAX_DISTANCE_IMAGES=1000).
 
-If something changes, it may be necessary to extract new icon-images. This can be done using `imageSearch.sh extract`.
+If something changes, it may be necessary to extract new icon-images. This can be done using `imageSearch.sh extract`. Note that icons for Rare chests differ from the rest, see folders `icons` and iconsRare`.
 
 The imageSearch.sh assumes images is already categories by names in chest-types as named by folders in `newToSort\todo`. See HowTo below.
 
