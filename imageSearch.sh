@@ -226,8 +226,8 @@ if [ "$DO_SORT_MATCH_MOVE_ALL" = "1" ] ; then
 else
 	searchAndExtract 3 $inputDir/*Gift*.png $inputDir/*Opponent_100*.png
 	searchAndExtract 4 $inputDir/*Opponent_300*.png $inputDir/*Opponent_600*.png $inputDir/*Special
-	searchAndExtract 5 $inputDir/*Rare*.png
+	searchAndExtract 5 $inputDir/*Battle*.png
 
-	echo
-	./count.sh "$DEST_DIR"
+	#echo
+	#./count.sh "$DEST_DIR"
 fi

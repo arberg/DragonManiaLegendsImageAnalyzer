@@ -37,7 +37,8 @@ countByName() {
 }
 
 
-countByName Rare
+#countByName Rare
+countByName Battle
 countByName Special
 countByName Normal
 countByName Gift

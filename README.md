@@ -30,11 +30,15 @@ In: `/newToSort/`
 ```
 doSort.sh
 ```
-Manuelly check sort 
-- Note chests where user gained +15 points means the opponent were at same level as player or higher (verified) or maybe slightly lower (unverified, probably false), +14 means lower level. Note that when inspecting battlelog, the points from the fight has been awarded to me as the winner (when I attack), so to get my points before attacking subtract victory points
-Rename and postfix ' - Chestproof' in TotalCommander with '[N1-26] - Chestproof[N27-]'
 
-Manuel task: Add data of Rare to excel (skip entering specials, they don't really matter)
+Manual tasks
+* In `newToSort\newSorted\unmatched`: Rename and postfix ' - Chestproof' in TotalCommander with `[N1-26] - Chestproof[N27-]`
+* Collect all from unmatchud and banner into one folder
+* Move screenshots with chestproofs into folders `newToSort\todo\<type>`
+* Add data of Rare to excel (skip entering specials, they don't really matter)
+
+Manually check sort 
+- Notes chests where user gained +15 points means the opponent were at same level as player or higher (verified) or maybe slightly lower (unverified, probably false), +14 means lower level. Note that when inspecting battlelog, the points from the fight has been awarded to me as the winner (when I attack), so to get my points before attacking subtract victory points
 
 In: `/newToSort/`
 ```

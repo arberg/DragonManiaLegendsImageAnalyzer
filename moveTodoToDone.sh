@@ -9,4 +9,6 @@ move() {
 
 move newToSort/todo allDone
 move matches/ matchesAll
-rm -f newToMatch_noChestproofs/*.png
+mkdir -p "matchesAll/@input"
+mv newToMatch_noChestproofs/*.png "matchesAll/@input"
+#rm -f newToMatch_noChestproofs/*.png
