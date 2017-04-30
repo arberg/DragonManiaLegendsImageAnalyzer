@@ -33,8 +33,8 @@ doSort.sh
 
 Manual tasks
 * In `newToSort\newSorted\unmatched`: 
-..* Rename and postfix ` - Chestproof`
-..* for instance in TotalCommander with batch rename `[N1-26] - Chestproof[N27-]`
+⋅⋅* Rename and postfix ` - Chestproof`
+⋅⋅* New for instance in TotalCommander with batch rename `[N1-26] - Chestproof[N27-]`
 * Collect all from unmatchud and banner into one folder
 * Move screenshots with chestproofs into folders `newToSort\todo\<type>`
 * Add data of Rare to excel (skip entering specials, they don't really matter)
