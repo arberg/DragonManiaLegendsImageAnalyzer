@@ -5,3 +5,6 @@ all_league_battles
 allDone-serverLost
 
 @HowTo-deleteMe.txt
+.disk*.md5
+.user*.md5
+matchesAll
